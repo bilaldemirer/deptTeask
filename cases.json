@@ -1,0 +1,88 @@
+
+
+
+{
+  "cases": [
+    {
+      "id": 1,
+      "image": "/static/media/bolcom.888f9aa4.png",
+      "title": "A summer island in the Netherlands",
+      "name": "BOL.COM",
+      "link": "#",
+      "filter": "industry"
+    },
+    {
+      "id": 2,
+      "image": "/static/media/kempen.99a6e6e9.png",
+      "title": "Not some average banking website",
+      "name": "Kempen",
+      "link": "#",
+      "filter": "industry"
+    },
+    {
+      "id": 3,
+      "image": "/static/media/philips.65247a66.png",
+      "title": "Beautiful design meets innovative technology",
+      "name": "Philips",
+      "link": "#",
+      "filter": "industry"
+    },
+    {
+      "id": 4,
+      "image": "/static/media/gemeentemuseum.ef3d2bd7.png",
+      "title": "A 100 years of Mondriaan & De Stijl",
+      "name": "Gemeentemuseum",
+      "link": "#",
+      "filter": "industry"
+    },
+    {
+      "id": 5,
+      "image": "/static/media/lightning.e4742e18.png",
+      "title": "Delivering clarity on a global scale",
+      "name": "Be Lighting",
+      "link": "#",
+      "filter": "industry"
+    },
+    {
+      "id": 6,
+      "image": "/static/media/tui.b04b8ad9.png",
+      "title": "Swipe to find your next holiday destination",
+      "name": "TUI",
+      "link": "#",
+      "filter": "industry"
+    },
+    {
+      "id": 7,
+      "image": "/static/media/chocomel.ce351c3d.png",
+      "title": "A campaign for the limited edition letter packs",
+      "name": "Chocomel",
+      "link": "#",
+      "filter": "industry"
+    },
+
+    {
+      "id": 8,
+      "image": "/static/media/jbl.4bc40adc.png",
+      "title": "Live like a champion with Jerome Booteng",
+      "name": "JBL",
+      "link": "#",
+      "filter": "music"
+    },
+    {
+      "id": 9,
+      "image": "/static/media/zalando.67c75c2a.png",
+      "title": "Innovative SEO and content strategy for Zalando",
+      "name": "zalando",
+      "link": "#",
+      "filter": "industry"
+    },
+    {
+      "id": 10,
+      "image": "/static/media/koninklijke.1086b9f0.png",
+      "title": "The search for the most influential book ever",
+      "name": "Koninklijke Bibliotheek",
+      "link": "#",
+      "filter": "industry"
+    }
+  ]
+}
