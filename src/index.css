@@ -128,12 +128,15 @@ body {
 }
 
 .mobileLogo {
-  display: flex;
+  visibility: visible;
 }
 
 @media screen and (max-width: 768px) {
   .mobileLogo {
-    display: none;
+    visibility: hidden;
+  }
+  .clients {
+    height: 550px;
   }
 }
 
