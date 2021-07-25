@@ -4,7 +4,7 @@ import "../index.css";
 
 function Banner({ children }: any) {
     return (
-        <div className="m-3">
+        <div className="m-3" id="home">
             <div className="banner">
                 <Row>
                     <Col> {children} </Col>
@@ -14,7 +14,7 @@ function Banner({ children }: any) {
                         <h2 className="bannerTitle">
                             WO <br />
                             RK
-                        </h2>{" "}
+                        </h2>
                     </Col>
                 </Row>
                 <Row className="m-5">
