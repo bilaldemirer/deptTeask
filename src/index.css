@@ -131,7 +131,7 @@ body {
   visibility: visible;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
   .mobileLogo {
     visibility: hidden;
   }
@@ -182,6 +182,9 @@ body {
     max-width: 400px; /* fallback */
     -webkit-line-clamp: 2; /* number of lines to show */
     -webkit-box-orient: vertical;
+  }
+  .backToTop {
+    display: none;
   }
 }
 

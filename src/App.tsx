@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Banner, Cases, Clients, Header } from './components';
+import { Banner, Cases, Clients, Header, Footer } from './components';
 import { Helmet } from "react-helmet";
-
+import { thumbnails } from './assets/Images/index';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -28,7 +28,7 @@ function App() {
   }));
 
 
-  console.log('cases: ', cases);
+  console.log('cases: ', thumbnails);
 
   useEffect(() => {
     getCases(dispatch);
@@ -48,6 +48,7 @@ function App() {
       </Banner>
       <Cases />
       <Clients />
+      <Footer />
     </>
   );
 }
