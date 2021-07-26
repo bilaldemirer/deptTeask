@@ -8,15 +8,16 @@ In the project directory, you can run:
 
 ### `json-server --watch cases.json`
 
-////////////// EDIT HERE /////////////
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Before running the app you need to run json-server <br />
 
-////////////// EDIT HERE /////////////
+Open [http://localhost:3000/cases](http://localhost:3000/cases) to view it in the browser.
+
+
+You can make changes on cases.json file to add or delete data.
+
+
 
 ### `yarn start`
 
