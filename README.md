@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+First step you install the json server using the following command:  <br />
+### npm install -g json-server
+
+Then, you can run the command and select the port using the following command:  <br />
+
 ### `json-server --watch cases.json`
 
 
