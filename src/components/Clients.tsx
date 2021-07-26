@@ -16,12 +16,11 @@ function Clients() {
             </Container>
             <Row xs={2} md={4} >
                 {logos.map((logo) => (
-                    <Container className="text-center">
+                    <Container key={logo.id} className="text-center">
                         <CardGroup className="m-5">
                             <Card
                                 className={logo.visible ? "" : "mobileLogo"}
                                 style={{ backgroundColor: "#F3F6F6", border: "0px" }}
-                                key={logo.id}
                             >
                                 <div className="text-center">
                                     <Card.Img variant="top" src={logo.path} className="w-25" />

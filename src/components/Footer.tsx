@@ -69,7 +69,7 @@ function Footer() {
                             </Col>
                             {items.map((item) => (
 
-                                <Col xs={4} md="auto">
+                                <Col key={item.id} xs={4} md="auto">
                                     <a className="text-decoration-none text-muted" href={item.href} key={item.id}>{item.title}</a>
                                 </Col>
                             ))}

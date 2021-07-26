@@ -21,14 +21,14 @@ function Cases() {
 
     useEffect(() => {
         getCases(dispatch);
-    }, []);
+    }, [dispatch]);
 
     return (
         <>
             <Container>
                 <div className="ml-1 mb-3">
                     <Button onClick={() => setGridView(!gridView)} variant="primary">
-                        Change View{" "}
+                        Change View
                     </Button>
                 </div>
                 {gridView ? (
@@ -37,13 +37,13 @@ function Cases() {
 
                     <Row xs={1} md={2} className="g-4">
                         {cases.map((cases, index) => (
-                            <Col>
+                            <Col key={index}>
                                 <Card>
                                     <Card.Img key={index} variant="top" src={cases.image} />
                                     <Card.Body>
                                         <Card.Text>{cases.name} </Card.Text>
                                         <Card.Title>{cases.title}</Card.Title>
-                                        <CaretRightFill /> <a href="#">VIEW CASE</a>
+                                        <CaretRightFill /> <a href="/">VIEW CASE</a>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -68,7 +68,7 @@ function Cases() {
                                             <Card.Body>
                                                 <Card.Text>{cases.name} </Card.Text>
                                                 <Card.Title>{cases.title}</Card.Title>
-                                                <CaretRightFill /> <a href="#">VIEW CASE</a>
+                                                <CaretRightFill /> <a href="/">VIEW CASE</a>
                                             </Card.Body>
                                         </Col>
                                     </Row>
