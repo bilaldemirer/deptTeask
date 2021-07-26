@@ -39,7 +39,7 @@ function Cases() {
                         {cases.map((cases, index) => (
                             <Col key={index}>
                                 <Card>
-                                    <Card.Img key={index} variant="top" src={cases.image} />
+                                    <Card.Img key={index} variant="top" src={cases.image} alt={cases.image} />
                                     <Card.Body>
                                         <Card.Text>{cases.name} </Card.Text>
                                         <Card.Title>{cases.title}</Card.Title>
@@ -62,7 +62,7 @@ function Cases() {
                                 <Card style={{ width: "64rem" }}>
                                     <Row>
                                         <Col>
-                                            <Card.Img key={index} variant="top" src={cases.image} />
+                                            <Card.Img key={index} variant="top" src={cases.image} alt={cases.image} />
                                         </Col>
                                         <Col>
                                             <Card.Body>

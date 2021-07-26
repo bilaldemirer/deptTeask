@@ -1,6 +1,3 @@
-
-
-
 {
   "cases": [
     {
@@ -59,7 +56,6 @@
       "link": "#",
       "filter": "industry"
     },
-
     {
       "id": 8,
       "image": "/static/media/jbl.4bc40adc.png",
